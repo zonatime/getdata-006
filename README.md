@@ -24,17 +24,10 @@ Steps to reproduce the output.
 3. Copy run_analysis.R from this git repository to the working directory.
 4. Open R console and setwd(“working directory”)
 5. source("run_analysis.R")
-6. 2 files will be written to ./output directory
-	- features.txt
+6. 3 files will be written to ./output directory
+	- observations.txt
+	- variables.txt
 	- average_by_activity_and_subject.txt
-	
-
-Code Book: features.txt
-
-This file is a list of the average mean and standard deviation variable names in row order, as found in the unlabeled rows of average_by_activity_and_subject.txt, 
-
-rows - observations
-columns - variables (measurements)
 
 Code Book: average_by_activity_and_subject.txt
 
