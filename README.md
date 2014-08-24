@@ -17,7 +17,7 @@ The R script called run_analysis.R will do the following:
 Steps to reproduce the output.
 
 1. Create a working directory to store the expanded source data, run_analysis.R, and the output tidy data set.
-2. Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory and expand the zip file. The resulting file structure must be unchanged for run_analysis.R to function correctly.
+2. Download "getdata-projectfiles-UCI HAR Dataset.zip" from the repository to the working directory and expand the zip file. The resulting file structure must be unchanged for run_analysis.R to function correctly.
 3. Copy run_analysis.R from this git repository to the working directory.
 4. Open R console and setwd(“working directory”)
 5. source("run_analysis.R")
@@ -30,8 +30,8 @@ Code Book: features.txt
 
 This file is a list of the average mean and standard deviation variable names in row order, as found in the unlabeled rows of average_by_activity_and_subject.txt, 
 
-Column 1 - row numbers
-Column 2 - variable names
+rows - observations
+columns - variables (measurements)
 
 Code Book: average_by_activity_and_subject.txt
 
