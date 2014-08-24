@@ -33,7 +33,7 @@ Code Book: average_by_activity_and_subject.txt
 
 This file contains the average mean and standard deviation for each feature in the original data set.
 
-average_by_activity_and_subject.txt contains the following variables, listed by column number.
+average_by_activity_and_subject.txt contains the following variables, listed by column number. The first column is "observations".
 
 2 tBodyAccmeanX
 3 tBodyAccmeanY
@@ -115,7 +115,7 @@ average_by_activity_and_subject.txt contains the following variables, listed by 
 79 fBodyBodyGyroJerkMagstd
 80 fBodyBodyGyroJerkMagmeanFreq
 
-average_by_activity_and_subject.txt contains the following observations, listed by row number, counting from 0 at the header.
+average_by_activity_and_subject.txt contains the following observations, listed by row number, counting from 0 at the header. (The first row is the header with column names)
 
 1 LAYING
 2 SITTING
