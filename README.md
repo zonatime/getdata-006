@@ -7,6 +7,9 @@ The source data for this project was collected from the accelerometers from the 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+Downlaod original data set at the following URL:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 The R script called run_analysis.R will do the following:
   - Merge the training and the test sets to create one data set.
   - Extract only the measurements on the mean and standard deviation for each measurement. 
